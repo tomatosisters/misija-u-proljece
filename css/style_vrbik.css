@@ -17,7 +17,6 @@ body {
 	background-color: black;
 }
 
-
 .mocmain {
 	position: relative;
 	top: 120px;
@@ -66,7 +65,7 @@ body {
 	padding: 40px 170px;
 	line-height: 1.1;
 	font-family: 'Martian Mono', monospace;
-	font-size: 400%;
+	font-size: 250%;
 }
 
 .rjesenje {

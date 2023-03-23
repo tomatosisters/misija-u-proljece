@@ -1,0 +1,222 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misija u proljeće</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="preload" type="font/woff2" as="font" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap" rel="preload" type="font/woff2" as="font" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="preload" type="font/woff2" as="font" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="preload" type="font/woff2" as="font" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="preload" type="font/woff2" as="font" crossorigin>
+  <script type="text/javascript" src="javascript/script.js"></script>
+  <script type="text/javascript" src="javascript/script_vrbik.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style_vrbik.css">
+</head>
+
+<body>
+
+  <div class="mocpuzzlemain">
+    <div class="mocpuzzle-title">
+      <h1>Misija u proljeće</h1>
+    </div>
+  </div>
+  <div class="gamesmain">
+    <div id="uvod">
+      <div class="gamesmain-text">
+        <p>Dragi znanstveniče, do sad si se pokazao kao pouzdan suradnik čime si zaslužio pristup stranicama koje nisu za svačije oči. U koverti na početku dobio si dvije čudnovate slike. Možda si se već susreo sa stereogramima u svom poslu, a ako ne, tajna je da samo moraš dooobro pogledati. <br>Po kojoj slavnoj životinji je nazvan park iza raketa? Ne zaboravi da se nalaziš na putu njenog kolege Jurija.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle1_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button1" onclick="mocpuzzle_evidence1()">OK</button>
+        <p id="mocpuzzle1_answer"></p>
+      </div>
+    </div>
+    <div id="lajka" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Naravno, radi se o prvom psu u svemiru odnosno prvoj kujici u svemiru. Lajka nije imala sreće, ali barem je dobila čast da se po njoj nazove vrbička poznata šetnica za njene rođake – Park kujice Lajke. Prošeći se do parka, pa malo prošeći parkom. Tu negdje na zidovima zgrade obitava vrhovno božanstvo, kako mu ono bješe ime?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle2_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button2" onclick="mocpuzzle_evidence2()">OK</button>
+        <p id="mocpuzzle2_answer"></p>
+      </div>
+    </div>
+    <div id="zeus" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Zeus, vrhovni bog u antičkoj Grčkoj šetao se na valjda zelenom Olimpu, a mi krećemo prema Zelenom trgu. Zeus bi flipnuo da vidi ove tri vrbičke ljepotice koje polijeću sa Gagarinca u svemir. Prije nego kreneš dalje, moraš riješiti jedan teški matematički zadatak. Na uglu jedne od Raketa koja nije u sredini i koja nije najniža, pogledaj u vis, nađi dva broja i nastavi niz. Da ti malo pomognem, radi se o broju koji je najmanji kvadratni, triangularan i parni broj.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle3_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button3" onclick="mocpuzzle_evidence3()">OK</button>
+        <p id="mocpuzzle3_answer"></p>
+      </div>
+    </div>
+    <div id="tridesetsest" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Točan odgovor! Ako ne znaš što je triangularni broj, a briješ na matematiku, zguglaj si, fora je. <br>Put nas vodi na mjesto na fotografiji. Moraš otkriti otkud je slikana fotografija. Tamo se nalazi jedna životinja koja ti nešto poručuje. Upiši ime popularnog kvartovskog kafića.</p>
+        <img src="images/rakete.jpg" class="fotka">
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle4_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button4" onclick="mocpuzzle_evidence4()">OK</button>
+        <p id="mocpuzzle4_answer"></p>
+      </div>
+    </div>
+    <div id="kokosi" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Baš me zanima jel' u ovom kafiću stvarno koke pjevaju? Al znam da tu blizu često pjevaju djeca tamo gdje već mala djeca budu dok im roditelji rade. Dječji vrtić Vrbik energetski je obnovljen prije par godina pri čemu je dobio prekrasnu krunu u raznim bojama. Koja boja se nalazi na sjeveroistočnom uglu vrtića?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle5_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button5" onclick="mocpuzzle_evidence5()">OK</button>
+        <p id="mocpuzzle5_answer"></p>
+      </div>
+    </div>
+    <div id="plava" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Voliš li i ti plavu boju kao i mi? Ima jedna zgrada koja nema veze s plavom bojom, a u kojoj možeš kupiti K plus proizvode, pa čak i Zvjeriće. Ta zgrada nalazi se u ulici našeg velikog znanstvenika i prvog hrvatskog nobelovca Lavoslava. Možda je Lavoslavu u čast neki Edward Škaroruki oblikovao zelene kugle preko puta Konzuma (do sad si vjerojatno shvatio da je to taj dućan). Ako malo bolje pogledaš ispred i na toj zgradi ima raznih geometrijskih oblika, zelenih kugli, betonskih trokuta, pravokutnih vrata. Koji je broj betonskih trokuta na zgradi? Opet se radi o jednom triangularnom broju.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle6_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button6" onclick="mocpuzzle_evidence6()">OK</button>
+        <p id="mocpuzzle6_answer"></p>
+      </div>
+    </div>
+    <div id="tri" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Sad se nalaziš u dijelu Vrbika gdje su ulice nazvane po tvojim suradnicima znanstvenicima. U parku između istaknutog hrvatskog znanstvenika-termodinamičara i hrvatskog znanstvenika meteorologa stoji ograđeno nekoliko životinja, neke od njih čak nisu ni dobrodošle. Izbroji pažljivo sve životinje u parku i upiši broj. Nemreš bilivit, ali i ovo je triangularni broj.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle7_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button7" onclick="mocpuzzle_evidence7()">OK</button>
+        <p id="mocpuzzle7_answer"></p>
+      </div>
+    </div>
+    <div id="sest" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Stvarno vrhunski odrađuješ ovaj teški zadatak. Trebali smo možda napisati da se radilo i o 2D i o 3D životinjama, al evo skužio si i sam. Sad ćemo požuriti do još jednog dječjeg igrališta, ali ovo je veće i življe od prethodnog. Pa da, ne možemo propustiti Kalimero. Tamo ćemo vidjeti što je sve u parku iste boje kao onaj sjeveroistočni ugao vrtića. Prvo ćemo posjetiti morskog sisavca te boje. Izgleda da taj ima neki problem sa disanjem. Nešto mu blokira dišne puteve. Što?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle8_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button8" onclick="mocpuzzle_evidence8()">OK</button>
+        <p id="mocpuzzle8_answer"></p>
+      </div>
+    </div>
+    <div id="kapa" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Pravi kit uopće nije plave boje, al nema sad veze. Produži do plavog letećeg zapravo ljuljajućeg tanjura. Tanjur zapravo nije tanjur, a nije ni skroz plave boje. Koje boje je mreža u tanjuru?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle9_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button9" onclick="mocpuzzle_evidence9()">OK</button>
+        <p id="mocpuzzle9_answer"></p>
+      </div>
+    </div>
+    <div id="crvena" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Dobro ti ide. Pazi da te ne skuže ovi mali špijuni koji su posvuda. Budi kul. Možda se malo i poigraj na spravama kao da si zbog toga došao. Kad nitko ne gleda, kreni dalje prema velikoj plavoj ploči na kojoj se igra sport sa dva imena, a svako od imena ima dvije riječi. Napiši ono šašavije.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle10_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button10" onclick="mocpuzzle_evidence10()">OK</button>
+        <p id="mocpuzzle10_answer"></p>
+      </div>
+    </div>
+    <div id="pingpong" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Na igralištu je velika plava kružnica, simbol našeg najpoznatijeg zagrebačkog nogometnog kluba sa slovom u sredini. Koje slovo je to?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle11_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button11" onclick="mocpuzzle_evidence11()">OK</button>
+        <p id="mocpuzzle11_answer"></p>
+      </div>
+    </div>
+    <div id="d" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Ne brini, još kratko smo tu s obzirom na to kako brzo rješavaš ove misterije. Još se nešto tu u parku plavi, a to su plave cijevi koje drže koševe. Iza koša bližeg Gagarincu, odmah izvan ograde nalazi se nešto plavo što treba vatrogascima u slučaju požara, a to je …</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle12_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button12" onclick="mocpuzzle_evidence12()">OK</button>
+        <p id="mocpuzzle12_answer"></p>
+      </div>
+    </div>
+    <div id="hidrant" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Za kraj obilaska Kalimera, dođi do izvora nečeg što je uglavnom prozirne boje, ali kad to nešto bojamo, bojamo to najčešće plavom bojom. Što piše na podu kod izvora? Jedno lijepo ime.</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle13_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button13" onclick="mocpuzzle_evidence13()">OK</button>
+        <p id="mocpuzzle13_answer"></p>
+      </div>
+    </div>
+    <div id="anja" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Anje, počesto vrlo krasne osobe, poneka živi i u ovom kvartu. Jedno od slova iz ovog prekrasnog imena nalazi se u blizini i to ukrašeno ko detektiv Poirot. Odmah pokraj nalazi se super zabavno mjesto u kvartu, gdje slobodno svrati na jednu od radionica. Kako se zove to mjesto?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle14_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button14" onclick="mocpuzzle_evidence14()">OK</button>
+        <p id="mocpuzzle14_answer"></p>
+      </div>
+    </div>
+    <div id="maštara" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Malo predahni, al nemoj predaleko odmaštati, jer moramo završiti ovu misiju. <br>Zanimljivost – vidiš ovu ploču na kojoj piše bilijon? E ova je igra barem toliko puta bolja od Čovječe ne ljuti se, zar ne? <br>Na jednoj od Maštarinih radionica uređen je i mali prostor za odmor kod jedne rozo obojane zgrade u glavnoj vrbičkoj šoping ulici. Ako bi bili staromodni, rekli bi da se radi o zgradi jedne skroz ženske boje, no jesi li primjetio da su one ulice na Vrbiku nazvane samo po muškim znanstvenicima. Morat ćemo jednom to ispraviti, a do tad zaigrajmo jednu igru. Da vidimo koliko dobro poznaješ žene u znanosti. Upiši abecednim redom slova i pokraj njih odgovarajuće brojeve i odvoji ih zarezom bez razmaka (npr. a1,b2,c3,d4,e5,f6). <br><br>A Ada Lovelace <br>B Valentina Tereškova <br>C Hedy Lamarr <br>D Tonka Kelava <br>E Marie Curie <br>F Zlata Bartl <br><br>1 prva žena u svemiru <br>2 zaslužna za stvaranje Vegete, najpoznatijeg začina iz Hrvatske <br>3 poznata kemičarka i prva žena koja je dobila ne jednu nego čak dvije Nobelove nagrade <br>4 prva računalna programerka, a ima i najljepše ime na svijetu <br>5 izumiteljica i poznata glumica <br>6 buduća znanstvenica</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle15_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button15" onclick="mocpuzzle_evidence15()">OK</button>
+        <p id="mocpuzzle15_answer"></p>
+      </div>
+    </div>
+    <div id="znanstvenice" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Ma da, naravno da to znaš. Bez nekih od njih ne bi mogli ni igrati ovu igru. No vratimo se mi rozoj zgradi (u kojoj BTW živi naš poznati mladi glumac T.R. (11)) i malom odmorištu. Koliko para očiju te gleda iz tog odmorišta?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle16_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button16" onclick="mocpuzzle_evidence16()">OK</button>
+        <p id="mocpuzzle16_answer"></p>
+      </div>
+    </div>
+    <div id="oči" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Too! OČIto si stručnjak kad si skužio još jedan trik zadatak. <br>Znanstveniče, vrijeme nam ističe! Vrati se nazad do najvećeg sata u kvartu (koji je naravno plave boje). Tu je postavljen "ležeći policajac" zbog velikog broja djece koja se tu svakodnevno igraju. Da bi ga vozači bolje vidjeli, sa strane je postavljen stupić koji podsjeća na jednu žzzzzivotinju. O kojoj životinji se radi?</p>
+      </div>
+      <div class="gamesmain-text">
+        <input class="input_button" type="text" id="mocpuzzle17_text" placeholder="upiši odgovor">
+        <button class="ok_button" id="mocpuzzle_button17" onclick="mocpuzzle_evidence17()">OK</button>
+        <p id="mocpuzzle17_answer"></p>
+      </div>
+    </div>
+    <div id="pčela" class="rjesenje">
+      <div class="gamesmain-text">
+        <p>Pčelice imaju čak pet očiju, a s njima vide samo plavu i žutu boju, ali i ultraljubičastu koju mi ne vidimo. Svi znamo da su pčele užasno važne i da bez njih vrlo brzo nestao bi i život kakav poznajemo na Zemlji. Pčele trebaju pelud da bi preživjele, a jedna od posebnih poslastica su im cice-mace. <br>Prije mnogo proljeća, mama mačka je plakala na obali rijeke jer su njeni mačići, naganjajući leptire, upali u rijeku. Vrbe na obali rijeke čule su njen plač i odlučile spasiti mačiće. Spustile su svoje duge grane za koje su se mačići uhvatili i tako ih izvukle na obalu. Otad, prema legendi, svakog proljeća vrbove grane dobivaju sićušne pupoljke na mjestima gdje su se mačići držali, koje podsjećaju na mačje krzno. U narodu ih zovu cice-mace. <br>Tako kaže legenda, a činjenica je da je ovaj prekrasan dio Zagreba nazvan po tom lijepom drvetu. Na Vrbiku je puno zelenih površina, visokih zgrada, parkova i igrališta. Samo nema više baš toliko puno vrba, a ono što nama baš treba su te famozne cice-mace. <br>Iz pouzdanih izvora, saznali smo da je najljepša vrba na Vrbiku u Parku kujice Lajke pa ćeš se opet tamo vratiti i istražiti je li sve u redu s njom kako bi se prirodni ciklus i dalje nastavio. Potrebno je vizualno procijeniti količinu klorofila u listovima, poslušati protočnost sokova u deblu te dobro pretražiti koru da se vidi je li oštećena. Pažljivo sve pregledaj, pčele su sigurno ostavile neku nagradu za tvoj trud!</p>
+      </div>
+      <div class="gamesmain-text">
+        <p>Tomato Sisters 26.3.2023.</p>
+      </div>
+    </div>
+
+
+
+    </div>
+  </div>
+</body>
+
+</html>

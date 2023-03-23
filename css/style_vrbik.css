@@ -472,8 +472,9 @@ label {
 }
 
 .mocpuzzle-title h1 {
-	padding: 10px 30px;
+	padding: 20px 30px;
 	font-size: 250%;
+	line-height: 1.5;
 }
 
 h3, .gamesmain-box h3 {
